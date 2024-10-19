@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* width */
+.dropdown-list ul::-webkit-scrollbar {
+    width: 5px;
+    
+    
+  }
+  
+  /* Track */
+  .dropdown-list ul ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .dropdown-list ul::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+  .dropdown-list ul::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
