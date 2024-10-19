@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons/faLocationDot'
 import { faBars, faCartShopping, faChevronDown, faChevronUp, faHeart } from '@fortawesome/free-solid-svg-icons'
+import Slider from '../components/Slider/Slider'
 
 const Home = () => {
     const [countryList, setCountryList] = useState([]);
@@ -93,6 +94,8 @@ const Home = () => {
                     </div>
                 </div>
             </header>
+        
+        <Slider/>
         </>
     )
 }
